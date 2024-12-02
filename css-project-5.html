@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css-project-1.css">
+  <title>Future Inspirator</title>
+  <link rel="shortcut icon" type="image/png" href="fi-icon.png">
+</head>
+<body>
+
+<div class="menu-container">
+
+    <img src="fi-icon-max.png" class="fi-image" onclick="location.href='index.html'">
+    <span class="fi-title">FUTURE INSPIRATOR</span>
+
+</div>
+
+<div class="flex-iframe-table-container">
+
+<iframe src="rotating-cube.html" class="project-iframe" frameborder="0"></iframe>
+
+<div class="flex">
+
+<table class="table" >
+  <tbody>
+        <tr>
+          <td align="center" class="first-row-column">SOURCE CODE</td>
+        </tr>    
+  </tbody>
+</table>
+<div class="container">
+   
+     <div class="source-code-names">
+     <span class="html">HTML</span>
+     <span class="css">CSS</span>
+     <span class="js">JS</span>
+     </div>
+ 
+    <input type="radio" name="radio" class="html-radio">
+    <input type="radio" name="radio" class="css-radio">
+    <input type="radio" name="radio" class="js-radio">
+
+
+  
+  <div class="html-source-code">
+    <xmp>
+<body>
+
+  <div class="parent">
+   <div class="cube">
+  <div class="rotate">
+    <img src="fi-icon.png" class="fi-icon">
+  </div>
+   </div>
+ </div>
+
+</body>
+       </xmp>
+   </div>
+
+  <div class="css-source-code">
+    <xmp>
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.parent{
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: parent 2s infinite alternate ;
+}
+
+@keyframes parent{
+  0%{
+    transform: translateX(-50px);
+  }
+
+  50%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(50px);
+  }
+}
+.cube
+{
+
+  background-color: #00fff9;
+    width:  70px;
+    height: 70px;
+    box-shadow: 0 0 10px #fff9,
+                0 0 20px #fff9,
+                0 0 30px #00fff9;
+    animation: rotate 1s  infinite ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: cube 2s infinite alternate;
+}
+
+
+@keyframes cube{
+  
+0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
+}
+
+.rotate{
+
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    animation: rotate 1s infinite linear alternate;
+}
+
+@keyframes rotate{
+
+  0%{    
+       width: 60px;
+           height: 60px;
+  }
+
+    100%{
+       width: 0;
+           height: 0;
+    }
+}
+
+.fi-icon{
+  
+  animation: fi-icon 1.5s infinite alternate;
+}
+
+@keyframes fi-icon{
+    0%{
+      transform: rotate(0deg);
+    }
+    
+    50%{
+      transform: rotate(-90deg);
+    }
+
+    100%{
+      transform: rotate(-180deg);
+    }
+}
+
+
+
+    </xmp>
+  </div>
+  <div class="js-source-code">
+    <xmp>
+JavaScript not used :)
+    </xmp>
+  </div>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>

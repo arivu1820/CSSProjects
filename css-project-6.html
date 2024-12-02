@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css-project-1.css">
+  <title>Future Inspirator</title>
+  <link rel="shortcut icon" type="image/png" href="fi-icon.png">
+</head>
+<body>
+
+<div class="menu-container">
+
+    <img src="fi-icon-max.png" class="fi-image" onclick="location.href='index.html'">
+    <span class="fi-title">FUTURE INSPIRATOR</span>
+
+</div>
+
+<div class="flex-iframe-table-container">
+
+<iframe src="css-smile-rotating-image.html" class="project-iframe" frameborder="0"></iframe>
+
+<div class="flex">
+
+<table class="table" >
+  <tbody>
+        <tr>
+          <td align="center" class="first-row-column">SOURCE CODE</td>
+        </tr>    
+  </tbody>
+</table>
+<div class="container">
+   
+     <div class="source-code-names">
+     <span class="html">HTML</span>
+     <span class="css">CSS</span>
+     <span class="js">JS</span>
+     </div>
+ 
+    <input type="radio" name="radio" class="html-radio">
+    <input type="radio" name="radio" class="css-radio">
+    <input type="radio" name="radio" class="js-radio">
+
+
+  
+  <div class="html-source-code">
+    <xmp>
+<body>
+  
+ <div class="cube">
+  <div class="side">😁</div>
+  <div class="side">😄</div>
+  <div class="side">😃</div>
+  <div class="side">😀</div>
+  <div class="side">🙂</div>
+  <div class="side">😆</div>
+ </div>
+
+</body>
+
+
+
+       </xmp>
+   </div>
+
+   <div class="css-project-code">   
+    </xmp>
+  </div>   
+  <div class="css-source-code">
+    <xmp>
+ * {
+  box-sizing: border-box;
+}
+
+body 
+{
+  perspective: 800px;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cube {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation-name: girar;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4em;
+  font-weight: bold;
+  border: 3px solid #fff;
+  box-shadow: 0 0 40px #00fff9;
+}
+
+.side:nth-child(1) {
+  transform: translateZ(75px);
+}
+
+.side:nth-child(2) {
+  transform: rotateX(90deg) translateZ(75px);
+}
+
+.side:nth-child(3) {
+  transform: rotateY(90deg) translateZ(75px);
+}
+
+.side:nth-child(4) {
+  transform: translateZ(-75px);
+}
+
+.side:nth-child(5) {
+  transform: rotateX(90deg) translateZ(-75px);
+}
+
+.side:nth-child(6) {
+  transform: rotateY(90deg) translateZ(-75px);
+}
+
+@keyframes girar {
+  0% {
+    transform: rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(0deg);
+  }
+  
+  100% {
+    transform: rotateX(360deg)
+    rotateY(360deg)
+    rotateZ(360deg);
+  }
+}
+
+
+
+
+   </xmp>
+  </div>
+  <div class="js-source-code">
+    <xmp>
+JavaScript not used :)
+    </xmp>
+  </div>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>

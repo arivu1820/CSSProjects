@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css-project-1.css">
+  <title>Future Inspirator</title>
+  <link rel="shortcut icon" type="image/png" href="fi-icon.png">
+</head>
+<body>
+
+<div class="menu-container">
+
+    <img src="fi-icon-max.png" class="fi-image" onclick="location.href='index.html'">
+    <span class="fi-title">FUTURE INSPIRATOR</span>
+
+</div>
+
+<div class="flex-iframe-table-container">
+
+<iframe src="animation.html" class="project-iframe" frameborder="0"></iframe>
+
+<div class="flex">
+
+<table class="table" >
+  <tbody>
+        <tr>
+          <td align="center" class="first-row-column">SOURCE CODE</td>
+        </tr>    
+  </tbody>
+</table>
+<div class="container">
+   
+     <div class="source-code-names">
+     <span class="html">HTML</span>
+     <span class="css">CSS</span>
+     <span class="js">JS</span>
+     </div>
+ 
+    <input type="radio" name="radio" class="html-radio">
+    <input type="radio" name="radio" class="css-radio">
+    <input type="radio" name="radio" class="js-radio">
+
+
+  
+  <div class="html-source-code">
+    <xmp>
+<body>
+
+<div class="parent-box">
+  <div class="box box1"></div>
+  <div class="box box2"></div>
+  <div class="box box3"></div>
+  <div class="box box4"></div>
+  <div class="box box5"></div>
+  <div class="box box6"></div>
+  <div class="box box7"></div>
+  <div class="box box8"></div>
+  <div class="box box9"></div>
+    <div class="sphere"></div>
+</div>
+
+</body>
+
+
+
+    </xmp>
+  </div>   
+  <div class="css-source-code">
+    <xmp>
+ body{
+          margin:0;
+          padding: 0;
+          box-sizing: border-box;
+          overflow: hidden;
+          height: 100vh;
+            background: repeating-conic-gradient(from 45deg,#111 0deg 90deg,#222 90deg 180deg,#333 180deg 270deg,#444 270deg 360deg);
+            background-size: .5em .5em;
+
+        }  
+
+        .parent-box{
+          width: 100%;
+          height: 100%;
+            position: relative;
+            perspective: 100px;
+        }
+
+        .box{
+            transform-style: preserve-3d;
+          position: absolute;
+          width: 6em;
+          height: 6em;
+          background: repeating-conic-gradient(from 45deg,#111 0deg 90deg,#222 90deg 180deg,#333 180deg 270deg,#444 270deg 360deg);
+          bottom: 0;
+        }
+
+        .box1{
+            left: 6em;
+        }
+        .box2{
+            left: 15em;
+            bottom:3em;
+        }
+
+        .box3{
+            left: 24em;
+            bottom:6em;
+        }
+
+        .box4{
+            left: 33em;
+            bottom:9em;
+        }
+
+        .box5{
+            left: 42em;
+            bottom:12em;
+        }
+
+        .box6{
+            left: 51em;
+            bottom:15em;
+        }
+        .box7{
+            left: 60em;
+            bottom:18em;
+        }
+
+        .box8{
+            left: 69em;
+            bottom:21em;
+        }
+
+        .box9{
+            left: 78em;
+            bottom:24em;
+        }
+        
+        .sphere{
+            position: absolute;
+            width: 3em;
+            height: 3em;
+            background:repeating-conic-gradient(from 45deg,#111 0deg 90deg,#222 90deg 180deg,#222 180deg 270deg,#111 270deg 360deg);
+            background-size: 1em .5em;
+            box-shadow: 0 0 10px yellow,
+                        0 0 20px orange,
+                        0 0 30px yellow;
+            border-radius: 50%;
+            bottom:35em;
+            left: 80em;
+            animation: sphere 4s infinite;
+        }
+
+        @keyframes sphere{
+            0%{
+                transform: translate(0);
+            }
+
+            10%{
+                bottom:30em;
+                left: 79.5em;
+                transform: rotate(0);
+            }
+
+            15%{
+                bottom:35em;
+            }
+
+            20%{
+                bottom:27em;
+                left: 70.5em;
+                transform: rotate(-90deg);
+            }
+
+            25%{
+                bottom:32em;
+            }
+
+            30%{
+                bottom:24em;
+                left: 61.5em;
+                transform: rotate(-180deg);
+            }
+
+            35%{
+                bottom:29em;
+            }
+
+            40%{
+                bottom:21em;
+                left: 52.5em;
+                transform: rotate(-270deg);
+            }
+            
+            45%{
+                bottom:26em;
+            }
+
+            50%{
+                bottom:18em;
+                left: 43.5em;
+                transform: rotate(-360deg);
+            }
+
+            55%{
+                bottom:24em;
+            }
+
+            60%{
+                bottom:15em;
+                left: 34.5em;
+                transform: rotate(0deg);
+            }
+
+            65%{
+                bottom:20em;
+            }
+
+            70%{
+                bottom:12em;
+                left: 25.5em;
+                transform: rotate(-90deg);
+            }
+
+            75%{
+                bottom:17em;
+            }
+
+            80%{
+                bottom:9em;
+                left: 16.5em;
+                transform: rotate(-270deg);
+            }
+
+            85%{
+                bottom:14em;
+            }
+
+            90%{
+                bottom:6em;
+                left: 7.5em;
+                transform: rotate(-360deg);
+            }
+
+            95%{
+                bottom:12em;
+            }
+
+            100%{
+                bottom:-3em;
+                left: -6em;
+                transform: rotate(-90deg);
+            }
+        }
+
+
+
+    </xmp>
+  </div>
+  <div class="js-source-code">
+    <xmp>
+JavaScript not used :)
+    </xmp>
+  </div>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>
